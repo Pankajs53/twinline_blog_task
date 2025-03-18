@@ -59,16 +59,20 @@ Below is the documentation for the APIs used in the Twinline Blog project.
     "content": "Regular exercise is essential for maintaining overall health and well-being. It helps improve cardiovascular health, strengthens muscles, boosts mood, and enhances endurance. Engaging in activities such as jogging, yoga, weight training, or cycling can reduce the risk of chronic diseases like diabetes and heart disease. Aim for at least 30 minutes of moderate physical activity daily to stay fit and active."
   }
 
+---
 ### 3. **Get All Blog Postst**
 
 **Endpoint:**  
 `GET http://localhost:8085/api/v1/blog/al`
+
+---
 
 ### 4. **Delete a Blog Post**
 
 **Endpoint:**  
 `DELETE http://localhost:8085/api/v1/blog/delete/{id`
 
+---
 
 ### 5. **Create a New Blog Post**
 
@@ -81,8 +85,9 @@ Below is the documentation for the APIs used in the Twinline Blog project.
   "content": "yessssss"
 }
 
+---
 
-### 6. **User Login**
+### 5. **User Login**
 
 **Endpoint:**  
 `POST http://localhost:8085/api/v1/auth/login`
@@ -95,6 +100,7 @@ Description: Authenticates a user and returns a JWT token.
   "password": "pankaj123"
 }
 
+---
 
 ### 7. **User Signup**
 
