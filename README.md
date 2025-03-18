@@ -87,7 +87,7 @@ Below is the documentation for the APIs used in the Twinline Blog project.
 
 ---
 
-### 5. **User Login**
+ 6. **User Login**
 
 **Endpoint:**  
 `POST http://localhost:8085/api/v1/auth/login`
@@ -102,7 +102,7 @@ Description: Authenticates a user and returns a JWT token.
 
 ---
 
-### 7. **User Signup**
+ 7. **User Signup**
 
 **Endpoint:**  
 `POST http://localhost:8085/api/v1/auth/signup`
@@ -120,7 +120,7 @@ Description: Registers a new user in the system.
 
 These APIs interact with the database to store and retrieve data related to users, posts, and comments.
 
-# Conclusion
+ Conclusion
 This project serves as a basic blog application, but due to time limitations, it has not been deployed or fully optimized.
 While it works as expected, there are several areas for improvement, such as integrating Kafka for data handling and scaling out the application architecture. With more time, the project could be enhanced with better performance optimizations, such as caching and implementing a microservices architecture.
 The provided APIs form the backbone of the application, offering a simple yet effective way to manage blog posts and comments.
