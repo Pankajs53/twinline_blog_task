@@ -80,10 +80,10 @@ Below is the documentation for the APIs used in the Twinline Blog project.
 `POST http://localhost:8085/api/v1/blog/create`
 
 ```json
-{
+ {
   "topic": "Hydration4",
   "content": "yessssss"
-}
+ }
 
 ---
 
@@ -95,10 +95,10 @@ Below is the documentation for the APIs used in the Twinline Blog project.
 Description: Authenticates a user and returns a JWT token.
 
 ```json
-{
+ {
   "email": "pawanThakur@gmail.com",
   "password": "pankaj123"
-}
+ }
 
 ---
 
@@ -110,17 +110,17 @@ Description: Authenticates a user and returns a JWT token.
 Description: Registers a new user in the system.
 
 ```json
-{
+ {
   "userName": "Pankaj123",
   "firstName": "Pankaj",
   "lastName": "Singh",
   "email": "pankajThakur@gmail.com",
   "password": "pankaj123"
-}
+ }
 
 These APIs interact with the database to store and retrieve data related to users, posts, and comments.
 
- Conclusion
+Conclusion
 This project serves as a basic blog application, but due to time limitations, it has not been deployed or fully optimized.
 While it works as expected, there are several areas for improvement, such as integrating Kafka for data handling and scaling out the application architecture. With more time, the project could be enhanced with better performance optimizations, such as caching and implementing a microservices architecture.
 The provided APIs form the backbone of the application, offering a simple yet effective way to manage blog posts and comments.
