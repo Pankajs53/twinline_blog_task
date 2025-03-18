@@ -53,7 +53,8 @@ Below is the documentation for the APIs used in the Twinline Blog project.
 
 - **Description:** Updates a blog post by the given ID.
 - **Request Body:**
-  ```json
+
+ 
   {
     "topic": "Exercise",
     "content": "Regular exercise is essential for maintaining overall health and well-being. It helps improve cardiovascular health, strengthens muscles, boosts mood, and enhances endurance. Engaging in activities such as jogging, yoga, weight training, or cycling can reduce the risk of chronic diseases like diabetes and heart disease. Aim for at least 30 minutes of moderate physical activity daily to stay fit and active."
@@ -79,7 +80,7 @@ Below is the documentation for the APIs used in the Twinline Blog project.
 **Endpoint:**  
 `POST http://localhost:8085/api/v1/blog/create`
 
-```json
+
  {
   "topic": "Hydration4",
   "content": "yessssss"
@@ -94,7 +95,7 @@ Below is the documentation for the APIs used in the Twinline Blog project.
 
 Description: Authenticates a user and returns a JWT token.
 
-```json
+
  {
   "email": "pawanThakur@gmail.com",
   "password": "pankaj123"
@@ -109,7 +110,7 @@ Description: Authenticates a user and returns a JWT token.
 
 Description: Registers a new user in the system.
 
-```json
+
  {
   "userName": "Pankaj123",
   "firstName": "Pankaj",
