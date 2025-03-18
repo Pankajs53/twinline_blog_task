@@ -121,6 +121,8 @@ Description: Registers a new user in the system.
 
 These APIs interact with the database to store and retrieve data related to users, posts, and comments.
 
+---
+
 Conclusion
 This project serves as a basic blog application, but due to time limitations, it has not been deployed or fully optimized.
 While it works as expected, there are several areas for improvement, such as integrating Kafka for data handling and scaling out the application architecture. With more time, the project could be enhanced with better performance optimizations, such as caching and implementing a microservices architecture.
