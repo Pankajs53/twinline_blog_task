@@ -1,5 +1,7 @@
 # Twinline Blog Project
 
+## Regarding the .env file, I did not remove it because there was nothing important
+
 ## Project Demo
 
 You can watch the demo of the Twinline Blog project by following this link:  
